@@ -10,12 +10,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="/main.css" rel="stylesheet">
     <title>Wolf Pack Fingerboards</title>
+    <script type="module">
+
+        // Import the functions you need from the SDKs you need
+
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+
+        // TODO: Add SDKs for Firebase products that you want to use
+
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+
+        // Your web app's Firebase configuration
+
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+        const firebaseConfig = {
+
+            apiKey: "AIzaSyA8byiw9SS3tdITkdPgO8C1g5MZcN8iCbM",
+
+            authDomain: "wolfpackfingerboards-ab3a5.firebaseapp.com",
+
+            projectId: "wolfpackfingerboards-ab3a5",
+
+            storageBucket: "wolfpackfingerboards-ab3a5.appspot.com",
+
+            messagingSenderId: "9157743784",
+
+            appId: "1:9157743784:web:e6c891b2733ca89fc71e9d",
+
+            measurementId: "G-VTWMHWJ7NX"
+
+        };
+
+
+        // Initialize Firebase
+
+        const app = initializeApp(firebaseConfig);
+
+        const analytics = getAnalytics(app);
+
+    </script>
 </head>
 
 <body>
     <div>
         <h1> Wolf Pack Fingerboards </h1>
-        <p> Test </p>
     </div>
 </body>
 
