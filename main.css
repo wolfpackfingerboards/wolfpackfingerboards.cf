@@ -2,3 +2,9 @@ body {
     font-family: 'Anton', sans-serif;
     background-color: rgb(88, 88, 88);
 }
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
