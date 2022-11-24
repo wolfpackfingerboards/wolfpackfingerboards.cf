@@ -7,4 +7,24 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: darkgray;
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    padding: 8px;
+
+}
+
+.active {
+    background-color: darkblue;
+}
+
+.navbar li:hover {
+    background-color: skyblue;
 }
